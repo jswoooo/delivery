@@ -14,7 +14,7 @@ public class DeliveryApplication {
 	public static ApplicationContext applicationContext;
 	
 	public static void main(String[] args) {
-		SpringApplication.run(DeliveryApplication.class, args);
+		applicationContext = SpringApplication.run(DeliveryApplication.class, args);
 	}
 
 }

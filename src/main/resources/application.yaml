@@ -25,7 +25,7 @@ spring:
                   serde: org.apache.kafka.common.serialization.Serdes$StringSerde
       bindings:
         event-in:
-          group: order
+          group: delivery
           destination: com.grp04.togosvc
           contentType: application/json
         event-out:
