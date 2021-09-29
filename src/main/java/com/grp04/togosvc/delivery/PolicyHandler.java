@@ -5,8 +5,6 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 import com.grp04.togosvc.delivery.kafka.KafkaProcessor;
 
 @Service
